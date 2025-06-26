@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Rubik's Cube Solver</title>
+  <link rel="shortcut icon" href="/Educase Logo.jpg" type="image/x-icon">
+  <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+  <h1>Rubik's Cube Solver <img src="/Educase Logo.jpg" alt="Educase Logo" width="40px"></h1>
+
+  <div>
+    <button onclick="rotateCube('F')">Rotate Front (F)</button>
+    <button onclick="rotateCube('B')">Rotate Back (B)</button>
+    <button onclick="rotateCube('U')">Rotate Up (U)</button>
+    <button onclick="rotateCube('D')">Rotate Down (D)</button>
+    <button onclick="rotateCube('L')">Rotate Left (L)</button>
+    <button onclick="rotateCube('R')">Rotate Right (R)</button>
+    <button onclick="solveCube()">Solve Cube</button>
+  </div>
+
+  <div id="cubeDisplay"></div>
+  <div id="steps"></div>
+
+  <script src="/script.js"></script>
+</body>
+
+</html>
